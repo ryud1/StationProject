@@ -35,10 +35,18 @@ docker compose up --build
     4.2 Substituir <nome do Container> pelo nome criado.
 
 # ======================
-# Debug - VScdoe
+# Debug - VScode
 # ======================
 
  5. Após isso, basta ativar o debugger (configuração de espera do backend):
     5.1 - Clicar no ícone de debug no vsCode;
     5.2 - Escolher "Python Debugger: Debug using launch.json";
     5.3 - Escolher "Attach to Python in Docker"
+
+# ======================
+# ACESSO 
+# ======================
+
+6. Dados de acessos:
+Login: teste@teste.com
+Senha: senha123
