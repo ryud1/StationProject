@@ -1,0 +1,197 @@
+
+Desafio Fullstack
+Esta etapa consiste em um teste prático de desenvolvimento fullstack com foco em geolocalização, mapas e APIs RESTful. O objetivo é avaliar sua capacidade de implementar funcionalidades reais que envolvem backend, frontend e integração com bibliotecas de mapas.
+
+
+
+REQUISITOS
+
+
+Frontend: React ou Angular - FEITO
+
+
+
+
+Backend: Python (Flask) - FEITO
+
+
+
+
+Banco de dados: SQLite, PostgreSQL ou MongoDB - FEITO
+
+
+
+
+Mapas: Leaflet.js com OpenStreetMap (ou Google Maps API) - FEITO
+
+
+
+
+Extras (diferenciais):
+
+
+
+
+Docker com docker-compose - FEITO
+
+
+
+
+Testes unitários no backend - NÃO FEITO
+
+
+
+
+Autenticação simples (usuário/senha fake) - FEITO
+
+
+
+
+Layout responsivo - NÃO FEITO
+
+
+
+
+Paginação ou virtual scroll na lista de estações OBJETIVO DO DESAFIO - FEITO
+
+Você deve construir uma aplicação onde usuários possam:
+
+
+
+
+Cadastrar estações de carregamento elétrico no Brasil FEITO
+
+
+
+
+Visualizar as estações em um mapa interativo FEITO
+
+
+
+
+Filtrar por tipo, status e localização (estado - UF) FEITO
+
+
+
+
+
+FUNCIONALIDADES OBRIGATÓRIAS
+
+Frontend FEITO
+
+
+Página com mapa interativo exibindo as estações - FEITO
+
+
+
+
+Formulário de cadastro com os campos: FEITO
+
+
+
+
+Nome da estação - FEITO
+
+
+
+
+Latitude e Longitude - FEITO
+
+
+
+
+Tipo de carregador (AC, DC ou ambos) - FEITO
+
+
+
+
+Potência (kW) - FEITO
+
+
+
+
+Número de vagas - FEITO
+
+
+
+
+Status: operacional, manutenção, inativo - FEITO
+
+
+
+
+
+
+Filtros por tipo, status e UF - PENDENTE
+
+
+
+
+Lista lateral com os dados das estações visíveis no mapa - FEITA PÁGINA COM AS INFORMACOES
+
+
+
+
+Backend
+
+
+API RESTful com rotas: - FEITO
+
+
+
+
+GET /cargas - FEITO
+
+
+
+
+GET /cargas/{id} - FEITO
+
+
+
+
+POST /cargas - FEITO
+
+
+
+
+PUT /cargas/{id} - FEITO
+
+
+
+
+DELETE /cargas/{id} - FEITO
+
+
+
+
+
+
+Validações (ex: latitude entre -90 e 90, potência numérica positiva) FEITO
+
+
+
+
+Armazenamento persistente (em banco de dados) FEITO
+
+
+
+
+
+DICAS
+
+
+Pode utilizar dados fictícios com coordenadas reais (ex: cidades brasileiras) FEITO
+
+
+
+
+Sugestão de ícones diferenciados para os tipos de carregadores - NÃO FEITO
+
+
+
+
+Pode usar API aberta como o Open Charge Map - FEITO
+
+ENTREGA ESPERADA 
+Código publicado em um repositório público no GitHub
