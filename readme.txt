@@ -32,7 +32,9 @@ docker compose up --build
 
 4. Rodar script de banco - Criação:
     4.1 - Rodar o seguinte comando no terminal do postgres ou no terminal da aplicação: docker exec -i <nome do Container> psql -U postgres -c "CREATE DATABASE estacoes_db;" 
-    4.2 Substituir <nome do Container> pelo nome criado.
+    4.2 - Substituir <nome do Container> pelo nome criado.
+    4.3 - Rodar "docker exec -i estacoes-app-db-1  psql -U postgres estacao_db < #caminho até o arquivo#/teste.sql;"
+    4.4 - Substituir #caminho até o arquivo# para o path até o arquivo. EX: /home/usuario/Documentos/teste.sql
 
 # ======================
 # Debug - VScode
